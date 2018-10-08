@@ -1,0 +1,22 @@
+package accountsystem;
+
+public class accountdetails {
+
+private String firstName;
+private String lastName;
+private String accountNumber;
+
+public accountdetails(String firstName, String lastName, String accountNumber ) {
+	this.firstName=firstName;
+	this.lastName=lastName;
+	this.accountNumber=accountNumber;
+	
+	
+	
+	
+}	
+	
+
+
+
+}

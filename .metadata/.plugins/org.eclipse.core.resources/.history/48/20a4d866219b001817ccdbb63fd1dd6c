@@ -1,0 +1,44 @@
+package qa.account_app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import accountsystem.Accountdetails;
+import accountsystem.Accountservices;
+import accountsystem.Systemfunction;
+
+
+
+public class AccountTest {
+	
+	
+	
+	@Test
+	public void newaccount() {
+	
+	   
+	 
+	   Accountservices hash = new Accountservices();
+	   hash.addaccounts("1",new Accountdetails("bob","dylan","3255" ));
+	   hash.addaccounts("2", new Accountdetails("Mike","Mathers","54545"));
+	   Systemfunction(hash);
+
+	    assertEquals (2, hash.getAccountsMap().size());
+	    
+	 
+	}
+	
+	@Test
+	public void testfirstnamecount() {
+		Accountservices services = new Accountservices();
+		new Systemfunction();
+		assertEquals(2, services.accounts.size());
+		
+		
+	}
+	
+	
+	
+
+}

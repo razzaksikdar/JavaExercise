@@ -1,0 +1,26 @@
+package qa.account_app;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import accountsystem.Accountservices;
+import accountsystem.Systemfunction;
+
+
+public class AccountTest {
+	
+	@Test
+	public void newaccount() {
+	
+	    new Systemfunction().printbyKey("2");
+		Accountservices hash = new Accountservices();
+		
+		assertEquals("Mike", hash.accounts.get(2).getFirstName());
+		
+	}
+	
+	
+	
+
+}

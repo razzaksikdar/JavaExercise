@@ -1,0 +1,24 @@
+package accountsystem;
+
+public class Systemfunction {
+	private Accountservices program;
+	
+	public Systemfunction() {
+		program = new Accountservices();
+	    program.addaccounts("1",new Accountdetails("bob","dylan","3255" ));
+		program.addaccounts("2", new Accountdetails("Mike","Mathers","54545"));
+		
+	}
+	public void printbyKey(String key) {
+		Accountdetails accountd = program.getAccount("2");
+		System.out.println(accountd.getFirstName() + accountd.getLastName() + accountd.getAccountNumber());
+		
+	}
+
+	
+	public static void main (String[] args) {
+		
+		new Systemfunction().printbyKey("2");
+	}
+
+}

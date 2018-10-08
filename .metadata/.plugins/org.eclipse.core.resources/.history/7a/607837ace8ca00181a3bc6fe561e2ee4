@@ -1,0 +1,16 @@
+package com.qa.raz.ShafiqsStaticTest;
+
+public class Result {
+
+	int a;
+	int b;
+	static int c;
+	
+	public int addition() {
+		
+		int t=a+b+c;
+		return t;
+	}
+	
+	
+}

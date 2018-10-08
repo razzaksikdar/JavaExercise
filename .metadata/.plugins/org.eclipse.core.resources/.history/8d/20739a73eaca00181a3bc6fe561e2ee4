@@ -1,0 +1,16 @@
+package com.qa.raz.ShafiqsStaticTest;
+
+public class Access {
+	
+	public static void main(String args[]) {
+	
+	Result x= new Result();
+ 
+	System.out.println(x.addition());
+	
+	System.out.println(x.getC());
+	
+	}
+	
+
+}

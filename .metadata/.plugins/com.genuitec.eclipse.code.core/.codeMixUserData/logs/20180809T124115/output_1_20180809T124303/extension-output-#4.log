@@ -1,0 +1,111 @@
+[Info  - 14:09:56] ESLint server is running.
+[Info  - 14:09:58] ESLint library loaded from: c:\Users\Admin\eclipse-workspace\personal_project\frontend\node_modules\eslint\lib\api.js
+[Info  - 14:23:58] ESLint library loaded from: c:\Users\Admin\eclipse-workspace\indivdual-project\frontend\node_modules\eslint\lib\api.js
+[Info  - 17:23:50] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\target\classes\public\static\js\app.f16ac5c624284d30f5af.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:23:50] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\src\main\resources\public\static\js\manifest.2ae2e69a05c33dfc65f8.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:23:50] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\src\main\resources\public\static\js\app.f16ac5c624284d30f5af.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:23:50] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\src\main\resources\public\static\js\vendor.2420502e2b2c7f321d64.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:23:56] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\target\classes\public\static\js\manifest.2ae2e69a05c33dfc65f8.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:23:56] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\target\classes\public\static\js\vendor.2420502e2b2c7f321d64.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:52:00] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\src\main\resources\public\static\js\app.f16ac5c624284d30f5af.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:52:00] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\target\classes\public\static\js\app.f16ac5c624284d30f5af.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:52:00] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\src\main\resources\public\static\js\manifest.2ae2e69a05c33dfc65f8.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:52:00] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\target\classes\public\static\js\manifest.2ae2e69a05c33dfc65f8.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:52:00] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\target\classes\public\static\js\vendor.2420502e2b2c7f321d64.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.
+[Info  - 17:52:03] 
+Failed to load the ESLint library for the document c:\Users\Admin\eclipse-workspace\personal_project\backend\src\main\resources\public\static\js\vendor.2420502e2b2c7f321d64.js
+
+To use ESLint please install eslint by running 'npm install eslint' in the workspace folder personal_project
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn instead of npm set the setting `"eslint.packageManager": "yarn"`
+
+Alternatively you can disable ESLint for the workspace folder personal_project by executing the 'Disable ESLint' command.

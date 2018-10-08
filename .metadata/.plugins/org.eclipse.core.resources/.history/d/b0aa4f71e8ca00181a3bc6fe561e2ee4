@@ -1,0 +1,10 @@
+package com.qa.raz.ShafiqsStaticTest;
+
+public class Result {
+
+	int a;
+	int b;
+	static int c;
+	
+	
+}

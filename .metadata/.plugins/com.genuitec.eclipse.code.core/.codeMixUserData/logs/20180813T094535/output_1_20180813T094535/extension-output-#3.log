@@ -1,0 +1,4 @@
+[Info  - 10:00:33] Using tsserver from: c:\Users\Admin\.codemix\engine\resources\app\extensions\node_modules\typescript\lib
+[Info  - 10:00:33] Forking TSServer
+PATH: C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\Users\Admin\sonar-scanner-cli-3.0.3.778-windows\sonar-scanner-3.0.3.778-windows\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Admin\sonar-scanner-cli-3.0.3.778-windows\sonar-scanner-3.0.3.778-windows\bin;C:\Users\Admin\AppData\Roaming\npm;C:\LocalInstall\Editors\eclipse-java-oxygen-R-win32-x86_64\eclipse;
+[Info  - 10:00:33] Started TSServer

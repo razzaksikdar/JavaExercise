@@ -1,0 +1,40 @@
+package com.qa.raz.ShafiqsStaticTest;
+
+public class Result {
+
+	int a =10;
+	int b= 12;
+	public char[] getC;
+	static int c=15;
+	
+	static Result r;
+	
+	
+	private Result()
+	{
+		
+	}
+	public int addition() {
+		
+		int t=a+b+c;
+		return t;
+	}
+
+	public int getC() {
+		return c;
+	}
+
+	public void setC(int c) {
+		Result.c = c;
+	}
+
+	public static Result createResult() {
+		
+		if(r==null) {
+			r=new Result();
+		}
+		
+		return r;
+	}
+	
+}

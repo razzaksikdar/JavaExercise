@@ -1,0 +1,34 @@
+package accountsystem;
+
+import java.util.*;
+public class Accountservices {
+	
+private HashMap<String,Accountdetails> accounts;
+
+public Accountservices() {
+	
+	accounts = new HashMap<String, Accountdetails>();
+	
+}
+
+public void addaccounts(String key, Accountdetails account) {
+	this.accounts.put(key, account);
+	
+}
+
+public Accountdetails getAccount(String key) {
+
+  return this.accounts.get(key);
+ 
+
+
+}
+public void viewaccounts () {
+	
+	System.out.println(accounts);
+}
+
+}
+
+
+

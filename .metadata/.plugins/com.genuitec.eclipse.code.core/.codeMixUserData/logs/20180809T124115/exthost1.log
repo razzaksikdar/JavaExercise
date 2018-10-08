@@ -1,0 +1,63 @@
+[2018-08-09 12:41:20.120] [exthost1] [info] extension host started
+[2018-08-09 12:41:20.513] [exthost1] [info] extension host started
+[2018-08-09 12:41:20.532] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:41:20.532] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\emmet\out\extension
+[2018-08-09 12:41:20.621] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:41:20.621] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\git\out\main
+[2018-08-09 12:41:20.917] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:41:20.917] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2018-08-09 12:41:20.934] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:41:20.934] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2018-08-09 12:41:20.942] [exthost1] [info] eager extensions activated
+[2018-08-09 12:41:20.959] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-08-09 12:41:20.959] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\configuration-editing\out\extension
+[2018-08-09 12:41:20.975] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-08-09 12:41:20.975] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\json-language-features\client\out\jsonMain
+[2018-08-09 12:43:04.494] [exthost1] [info] extension host started
+[2018-08-09 12:43:04.519] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:43:04.519] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\emmet\out\extension
+[2018-08-09 12:43:04.584] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:43:04.584] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\git\out\main
+[2018-08-09 12:43:04.757] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:43:04.757] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2018-08-09 12:43:04.770] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:43:04.770] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2018-08-09 12:43:04.777] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:43:04.777] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\christian-kohler.path-intellisense-1.4.2\out\src\extension
+[2018-08-09 12:43:04.789] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:43:04.789] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\dbaeumer.vscode-eslint-1.4.10\client\out\extension
+[2018-08-09 12:43:04.850] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:43:04.850] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\formulahendry.auto-close-tag-0.5.6\out\src\extension
+[2018-08-09 12:43:04.851] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:43:04.851] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\hookyqr.beautify-1.3.0\extension
+[2018-08-09 12:43:04.893] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-08-09 12:43:04.893] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\zignd.html-css-class-completion-1.17.1\out\src\extension
+[2018-08-09 12:43:05.387] [exthost1] [info] eager extensions activated
+[2018-08-09 12:43:05.387] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-08-09 12:43:05.387] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\configuration-editing\out\extension
+[2018-08-09 12:43:05.397] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-08-09 12:43:05.397] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\json-language-features\client\out\jsonMain
+[2018-08-09 14:08:46.904] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-08-09 14:08:46.904] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\html-language-features\client\out\htmlMain
+[2018-08-09 14:08:47.068] [exthost1] [info] ExtensionService#_doActivateExtension mkaufman.HTMLHint {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-08-09 14:08:47.068] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\mkaufman.htmlhint-0.5.0\out\extension
+[2018-08-09 14:09:12.573] [exthost1] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-08-09 14:09:12.573] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\extension-editing\out\extension
+[2018-08-09 14:09:12.616] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-08-09 14:09:12.616] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\npm\out\main
+[2018-08-09 14:09:12.668] [exthost1] [info] ExtensionService#_doActivateExtension eg2.vscode-npm-script {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-08-09 14:09:12.668] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\eg2.vscode-npm-script-0.3.3\out\src\main
+[2018-08-09 14:09:56.545] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-08-09 14:09:56.545] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\typescript-language-features\out\extension
+[2018-08-09 14:09:56.705] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense {"startup":false,"activationEvent":"onLanguage:javascript"}
+[2018-08-09 14:09:56.705] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\christian-kohler.npm-intellisense-1.2.1\out\src\extension
+[2018-08-09 17:13:09.842] [exthost1] [info] ExtensionService#_doActivateExtension octref.vetur {"startup":false,"activationEvent":"onLanguage:vue"}
+[2018-08-09 17:13:09.842] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\octref.vetur-0.12.3\out\vueMain
+[2018-08-09 17:23:49.963] [exthost1] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:css"}
+[2018-08-09 17:23:49.963] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\css-language-features\client\out\cssMain
+[2018-08-10 17:52:01.181] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-08-10 17:52:01.181] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\ms-vscode.node-debug2-1.24.2\out\src\extension
+[2018-08-10 17:52:01.204] [exthost1] [info] ExtensionService#_doActivateExtension msjsdiag.debugger-for-chrome {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-08-10 17:52:01.204] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\Admin\.vscode\extensions\msjsdiag.debugger-for-chrome-4.4.3\out\src\extension
+[2018-08-10 17:52:02.115] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-08-10 17:52:02.115] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\Admin\.codemix\engine\resources\app\extensions\ms-vscode.node-debug\out\node\extension\extension.js

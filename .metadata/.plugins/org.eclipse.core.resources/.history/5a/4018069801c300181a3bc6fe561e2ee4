@@ -1,0 +1,10 @@
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class Tester {
+	@Test
+	public void something() {
+		assertEquals("hello", "hello");
+	}
+}

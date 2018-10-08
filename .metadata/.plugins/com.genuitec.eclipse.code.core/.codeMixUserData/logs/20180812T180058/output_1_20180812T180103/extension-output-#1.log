@@ -1,0 +1,54 @@
+Looking for git in: C:\Program Files\Git\cmd\git.exe
+Using git 2.18.0.windows.1 from C:\Program Files\Git\cmd\git.exe
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: c:\Users\Admin\eclipse-workspace\Account_Project
+> git status -z -u
+> git rev-parse --show-toplevel
+> git symbolic-ref --short HEAD
+> git rev-parse Tdd_feature_branch
+> git rev-parse --symbolic-full-name Tdd_feature_branch@{u}
+> git rev-list --left-right Tdd_feature_branch...refs/remotes/origin/Tdd_feature_branch
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: c:\Users\Admin\eclipse-workspace\Personal-Project
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :personal_project/frontend/src/components/HelloWorld.vue
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :personal-project/frontend/config/index.js
+> git check-ignore -z --stdin
+> git show :personal-project/frontend/src/components/HelloWorld.vue
+> git check-ignore -z --stdin
+> git show :personal_project/frontend/src/components/HelloWorld.vue
+> git show :personal-project/frontend/src/components/HelloWorld.vue
+> git show :personal_project/frontend/src/components/HelloWorld.vue
+> git show :personal-project/frontend/src/components/HelloWorld.vue
+> git check-ignore -z --stdin
+> git show :personal-project/frontend/src/App.vue
+> git show :personal_project/frontend/src/App.vue
+> git show :personal-project/frontend/src/App.vue
+> git show :personal_project/frontend/src/App.vue
+> git show :personal-project/frontend/src/App.vue
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git check-ignore -z --stdin

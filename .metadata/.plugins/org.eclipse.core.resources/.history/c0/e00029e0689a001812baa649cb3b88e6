@@ -1,0 +1,9 @@
+package accountsystem;
+
+import java.util.*;
+public class Accountservices {
+	
+private Hashmap<String,Accountdetails>();
+
+
+}

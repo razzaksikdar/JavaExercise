@@ -1,0 +1,48 @@
+package accountsystem;
+
+import java.io.IOException;
+
+public class Systemfunction {
+	private Accountservices program;
+	
+	public  Systemfunction() {
+		program = new Accountservices();
+	    program.addaccounts("1",new Accountdetails("bob","dylan","3255" ));
+		program.addaccounts("2", new Accountdetails("Mike","Mathers","54545"));
+		try {
+			String jsonStr = mapperObj.writerWithDefaultPrettyPrinter().writeValueAsString(hash); 
+			System.out.println(jsonStr);
+		} catch (IOException  e) {
+			
+			e.printStackTrace();
+		
+		}
+		
+		
+	  
+		
+	}
+	public void printbyKey(String key) {
+		Accountdetails acc = new Accountdetails();
+		
+	
+		System.out.println(accountd.getFirstName() + " "  + accountd.getLastName() + " " + accountd.getAccountNumber());
+		
+		
+	}
+
+public void prinout() {
+		System.out.println(program.getAccountsMap().get("1"));
+	
+}
+	
+	public static void main (String[] args) {
+		
+	Systemfunction();
+		
+		
+	
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+Looking for git in: C:\Program Files\Git\cmd\git.exe
+Using git 2.18.0.windows.1 from C:\Program Files\Git\cmd\git.exe
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: c:\Users\Admin\eclipse-workspace\Account_Project
+> git status -z -u
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git symbolic-ref --short HEAD
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse Tdd_feature_branch
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-parse --show-toplevel
+> git rev-parse --symbolic-full-name Tdd_feature_branch@{u}
+fatal: not a git repository (or any of the parent directories): .git
+> git rev-parse --show-toplevel
+> git rev-list --left-right Tdd_feature_branch...refs/remotes/origin/Tdd_feature_branch
+fatal: not a git repository (or any of the parent directories): .git
+> git check-ignore -z --stdin
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

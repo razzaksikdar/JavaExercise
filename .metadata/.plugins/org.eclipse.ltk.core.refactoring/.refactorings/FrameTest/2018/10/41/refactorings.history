@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;FrameAndButton&apos; to &apos;Windows&apos;&#x0D;&#x0A;- Original project: &apos;FrameTest&apos;&#x0D;&#x0A;- Original element: &apos;FrameAndButton&apos;&#x0D;&#x0A;- Renamed element: &apos;Windows&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FrameAndButton&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{FrameAndButton.java[FrameAndButton" matchStrategy="1" name="Windows" qualified="false" references="true" similarDeclarations="false" stamp="1538999487728" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "path": "C:\\Users\\Admin\\eclipse-workspace\\Account_Project\\account_app"
+        },
+        {
+            "path": "C:\\Users\\Admin\\eclipse-workspace\\individual-project"
+        },
+        {
+            "path": "C:\\Users\\Admin\\eclipse-workspace\\Personal-Project\\individual-project"
+        }
+    ],
+    "settings": {
+        "htmlhint.options": {
+            "attr-value-double-quotes": true,
+            "attr-no-duplication": true,
+            "tag-pair": true,
+            "spec-char-escape": true,
+            "id-unique": false,
+            "src-not-empty": true,
+            "title-require": true
+        }
+    }
+}
