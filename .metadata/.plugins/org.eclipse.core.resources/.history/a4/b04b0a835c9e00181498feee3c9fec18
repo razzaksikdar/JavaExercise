@@ -1,6 +1,0 @@
-
-import org.springframework.data.jpa.repository.JpaRepository;
-import com.qa.personal_project.AccountDetails;
-public interface UserRepository extends JpaRepository<AccountDetails, Long> {
-
-}

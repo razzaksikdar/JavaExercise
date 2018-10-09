@@ -8,16 +8,18 @@ public class Windows {
 		
 	
 	
-	
+	   TextField T= new TextField();
+	   
 		
 		
 		Button b1=new Button("Click 1");
 		Button b2=new Button("Click 2");
 		Button b3=new Button("Click 3");
 		Button b4=new Button("Click 4");
-		Button b5=new Button("Click 5");
 		
-		Event e=new Event();
+		b1.setSize(100, 100);
+		
+		Event e=new Event(T);
 		b1.addActionListener(e);
 		
 		
@@ -25,7 +27,7 @@ public class Windows {
 		f.add(b2, BorderLayout.EAST);
 		f.add(b3, BorderLayout.WEST);
 		f.add(b4, BorderLayout.SOUTH);
-		f.add(b5, BorderLayout.CENTER);
+		f.add(T, BorderLayout.CENTER);
 		
 		
 		f.setSize(400, 400);

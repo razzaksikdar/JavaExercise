@@ -44,6 +44,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Admin\eclipse-workspace\JUnit example\src\Tester.java"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Personal-Project\personal-project"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Personal-Project\personal-project\frontend"/>
 			<item value="C:\Users\Admin\eclipse-workspace\Personal-Project"/>
@@ -62,20 +63,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.qa.individual_project"/>
-			<item value="com.qa.personal_project"/>
-			<item value="com.qa.indivdual_project"/>
-			<item value="com.qa.Indvidual_project"/>
+			<item value="com.qa.raz.Calculator"/>
+			<item value="com.qa.raz.FrameTest"/>
+			<item value="com.qa.raz.ShafiqsStaticTest"/>
 		</list>
 		<list key="groupId">
-			<item value="com.qa"/>
+			<item value="com.qa.raz"/>
 		</list>
 		<list key="artifactId">
-			<item value="individual-project"/>
-			<item value="personal_project"/>
-			<item value="personal-project"/>
-			<item value="indivdual-project"/>
-			<item value="Indvidual_project"/>
+			<item value="Calculator"/>
+			<item value="FrameTest"/>
+			<item value="ShafiqsStaticTest"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
