@@ -5,16 +5,8 @@ import java.awt.event.*;
 
 public class Operation implements ActionListener {
 	
-   TextField TT1, TT2, TT3, TT4;
-   
-	
-	public Operation(TextField A, TextField B, TextField D, TextField C) {
-		TT1=A;
-		TT2=B;
-		TT4=D;
-		TT3=C;
-	}
-	
+
+
 	@Override
 	public void actionPerformed(ActionEvent x) {
 		

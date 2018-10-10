@@ -212,7 +212,7 @@ public class Win {
 		//FlowLayout FL=new FlowLayout();
 		//f.setLayout(FL);
 		
-		GridLayout gl=new GridLayout(4,4);
+		GridLayout gl=new GridLayout(4,6);
 		body.setLayout(gl);
 		f.setSize(400, 400);
 		f.setVisible(true);

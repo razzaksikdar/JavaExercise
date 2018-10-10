@@ -21,10 +21,10 @@ package jdbcConnection;
 				
 				String sql2;
 				
-				sql="Insert into qa.school values(24, 'raz', 75)";
+				sql="Insert into qa.school values(35, 'first', 345)";
 				stmt.executeUpdate(sql);
 				
-				sql1="Insert into qa.school values(25, 'radfsg', 55)";
+				sql1="Insert into qa.school values(95, 'last', 345)";
 				stmt.executeUpdate(sql1);
 
 				sql2="Select * From qa.school";
@@ -48,9 +48,4 @@ package jdbcConnection;
 			}
 
 		}
-
-	
-	
-	
-
 }
