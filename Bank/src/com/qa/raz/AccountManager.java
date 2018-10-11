@@ -181,14 +181,46 @@ public class AccountManager {
 		// Check account
 		
 		
+		Label L12, L13, L14, L15;
 		
+		L12 = new Label("Account Number: ");
+		L13 = new Label("Name:");
+		L14 = new Label("Address:");
+		L15 = new Label("Balance");
 		
+		Button b12=new Button("Clear");
+		Button b13=new Button("Search");
 		
+		TextField T9, T10, T11, T12, T13, T14;
+		T9= new TextField();
+		T10= new TextField();
+		T11= new TextField();
+		T12= new TextField();
+		T13= new TextField("Inward Statement:");
+		T14= new TextField("Outward Statement:");
+		
+		checkAccount.add(L12);
+		checkAccount.add(T9);
+		
+		checkAccount.add(b12);
+		checkAccount.add(b13);
+		
+		checkAccount.add(L13);
+		checkAccount.add(T10);
+		
+		checkAccount.add(L14);
+		checkAccount.add(T11);
+		
+		checkAccount.add(L15);
+		checkAccount.add(T12);
+		
+		checkAccount.add(T13);
+		checkAccount.add(T14);
 		
 		
 	// action listener
 		// window operator
-		Woperator e=new Woperator(f,createAccount, depositMoney, dnrPanel, withdrawMoney);
+		Woperator e=new Woperator(f,createAccount, depositMoney, dnrPanel, withdrawMoney, checkAccount);
 		b1.addActionListener(e);
 		b2.addActionListener(e);
 		b3.addActionListener(e);
@@ -225,7 +257,8 @@ public class AccountManager {
 		GridLayout withdraw=new GridLayout(6,2);
 		withdrawMoney.setLayout(withdraw);
 		
-		
+		GridLayout moneycheck=new GridLayout(6,2);
+		checkAccount.setLayout(moneycheck);
 		
 		GridLayout dnrp=new GridLayout(1,1);
 		dnrPanel.setLayout(dnrp);
