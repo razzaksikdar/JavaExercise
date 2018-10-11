@@ -8,14 +8,15 @@ import java.awt.event.*;
 
 public class Woperator implements ActionListener{
 
-	  Panel P1, P2, P3;
+	  Panel P1, P2, P3, P4;
 	  Frame FF;
 
-		public Woperator(Frame F,Panel p1, Panel p2, Panel p3) {
+		public Woperator(Frame F,Panel p1, Panel p2, Panel p3, Panel p4) {
 			
 		 P1=p1;
 		 P2=p2;
 		 P3=p3;
+		 P4=p4;
 		 FF=F;
 		}
 	
@@ -40,6 +41,10 @@ public class Woperator implements ActionListener{
 		
 		if(TiTleBTN.equals("Withdraw")) {
 	
+			P3.removeAll();
+			
+			result=P4;
+			
 		}
 		if(TiTleBTN.equals("Check")) {
 	

@@ -11,10 +11,11 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class DepositOperator implements ActionListener {
+
 	TextField TT1, TT2;
-	TextArea TT3;
+	TextField TT3;
 	
-	public DepositOperator(TextField A, TextField B, TextArea C) {
+	public DepositOperator(TextField A, TextField B, TextField C) {
 		TT1=A;  // account id
 		TT2=B;   // deposit amount
 		TT3=C;   // result
@@ -44,10 +45,10 @@ public class DepositOperator implements ActionListener {
 				conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/?useSSL=false", "root", "root");
 				stmt=conn.createStatement();
 				
-				String sql, sql2;
+				String sql;
 				
-				float a, b, c;
-				a=b=c=0;
+				int a;
+				a=0;
 				
 				a=Integer.parseInt(TT1.getText());
 				
@@ -58,15 +59,21 @@ public class DepositOperator implements ActionListener {
 				
 				sql= "SELECT AcNo from bank.account where AcNo='"+a+"'";		
 				ResultSet r=stmt.executeQuery(sql);
-		        while(r.next()) {
-		        	int id=r.getInt("AcNo");
-		
-		        	System.out.println("Account No:"+id);
-
-		            result="Account No :"+id+"  "+"Exist";
-//		        	
-		        	TT3.setText(result);
+				
+				
+		        if(r.next()) {
 		        	
+					String id= null;
+		        	id=r.getString("AcNo");
+		        		result="Account No :"+id+"  "+"Exist."+" Enter The Deposit Amount Please";
+		        		System.out.println("Account No:"+id);
+		        		TT3.setText(result);
+		        	}
+		        	else {
+		        		result="Account No :"+a+"  "+"Does NOT Exist"+"Sorry!Create your Account first";
+		        		System.out.println("Account No:"+a);
+		        		TT3.setText(result);
+		        
 		        }
 		        
 		    	r.close();
@@ -79,8 +86,6 @@ public class DepositOperator implements ActionListener {
 		}
 		
 		if(TiTleBTN.equals("Save")) {
-			
-
 			
 			Connection conn =null;
 			Statement stmt=null;
@@ -102,7 +107,7 @@ public class DepositOperator implements ActionListener {
 				a=TT2.getText();
 				
 				
-				sql= "INSERT INTO `bank`.`deposit` (`Name`, `Address`) VALUES ('"+n+"', '"+a+"')";
+				sql= "INSERT INTO `bank`.`deposit` (`AcNo`, `amount`) VALUES ('"+n+"', '"+a+"')";
 				stmt.executeUpdate(sql);
 		
 				
@@ -110,15 +115,17 @@ public class DepositOperator implements ActionListener {
 				
 				ResultSet r=stmt.executeQuery(sql2);
 		        while(r.next()) {
-		        	int id=r.getInt("AcNo");
-		        	String cname =r.getString("Name");
-		        	String address=r.getString("Address");
+		        	int ac=r.getInt("AcNo");
+		        	float amnt =r.getFloat("amount");
+		        	String datet=r.getString("Date");
+		        	int depId=r.getInt("depositId");
 		
-		        	System.out.println("Account No:"+id);
-		        	System.out.println("Name:"+cname);
-		        	System.out.println("Address:"+address);
+		        	System.out.println("Account No:"+ac);
+		        	System.out.println("Amount:"+amnt);
+		        	System.out.println("Date:"+datet);
+		        	System.out.println("Deposit id:"+depId);
 		        	
-		            result="Account No :"+id+"  "+"Name :"+cname+"  "+"Address :"+address;
+		            result="Account No :"+ac+"  "+"Amount:"+amnt+"  "+"Date :"+datet+"Deposit Id :"+depId;
 		        	
 		        	TT3.setText(result);
 		        	
@@ -134,7 +141,13 @@ public class DepositOperator implements ActionListener {
 		
 		}
 	
+	if(TiTleBTN.equals("Clear")) {
+			
+			TT1.setText(" ");
 		
+			TT2.setText(" ");
+			TT3.setText(" ");
+		}
 	}
 	
 

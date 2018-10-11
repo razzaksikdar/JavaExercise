@@ -31,13 +31,12 @@ public class AccountManager {
 							}
 							
 						});
+						
+		// Panel declaration
+						
 		Panel body=new Panel();
 		Panel buttonPanel=new Panel();
-
-		
 		Panel dnrPanel=new Panel();
-	    
-		
 		Panel createAccount=new Panel();
 		Panel depositMoney=new Panel();
 		Panel withdrawMoney=new Panel();
@@ -89,7 +88,7 @@ public class AccountManager {
 		   T2= new TextField();
 	
 		  
-		TextArea ta=new TextArea();
+		TextField ta=new TextField();
 		Button b5=new Button("Clear");
 		Button b6=new Button("Create");
 
@@ -117,50 +116,99 @@ public class AccountManager {
 		Label L5=new Label("Enter Deposit Amount");
 		Label L6=new Label("Report");
 
-		   TextField T4, T5;
-		   T4= new TextField();
-		   T5= new TextField();
-		  
-		TextArea tat=new TextArea();
+		TextField T4, T5;
+		T4= new TextField();
+		T5= new TextField();
+		
+		TextField tat=new TextField();
+		
+		
 		Button b7=new Button("Search");
 		Button b8=new Button("Save");
+		Button b0=new Button("Clear");
 
 		
 		depositMoney.add(L4);
 		depositMoney.add(T4);
 		depositMoney.add(b7);
-		
-		
 		depositMoney.add(L5);
 		depositMoney.add(T5);
 		depositMoney.add(b8);
 		depositMoney.add(L6);
 		depositMoney.add(tat);
+		depositMoney.add(b0);
+
 		
-		//dnrPanel.add(depositMoney);
+		// Withdraw 
+		Label L7=new Label("Enter Account No");
+		Label L8=new Label("Existing Balance");
+		Label L9=new Label("Enter Amount to withdraw");
+		Label L10=new Label("");
+		Label L11=new Label("Output");
+		
+		TextField T6, T7, T8;
+		T6= new TextField();
+		T7= new TextField();
+		T8= new TextField();
+		TextField wOutput=new TextField();
+		
+		
+		Button b9=new Button("Clear");
+		Button b10=new Button("Search");
+		Button b11=new Button("Withdraw");
+		
+		
+		withdrawMoney.add(L7);
+		withdrawMoney.add(T6);
+		
+		withdrawMoney.add(b9);
+		withdrawMoney.add(b10);
+		
+		withdrawMoney.add(L8);
+		withdrawMoney.add(T7);
+		
+		withdrawMoney.add(L9);
+		withdrawMoney.add(T8);
+		
+		withdrawMoney.add(L10);
+		withdrawMoney.add(b11);
+		
+		withdrawMoney.add(L11);
+		withdrawMoney.add(wOutput);
+		
+//		dnrPanel.add(withdrawMoney);
+		
+		// Check account
+		
+		
+		
+		
 		
 		
 		
 	// action listener
-		
-		Woperator e=new Woperator(f,createAccount, depositMoney, dnrPanel);
+		// window operator
+		Woperator e=new Woperator(f,createAccount, depositMoney, dnrPanel, withdrawMoney);
 		b1.addActionListener(e);
 		b2.addActionListener(e);
 		b3.addActionListener(e);
 		b4.addActionListener(e);
 		
 		
-		
+		// account operator
 		AccountOperator ao=new AccountOperator(T1, T2, ta);
 		b5.addActionListener(ao);
 		b6.addActionListener(ao);
 	
-		
+		// Deposit operator
 		DepositOperator dot=new DepositOperator(T4, T5, tat);
 	    b7.addActionListener(dot);
 		b8.addActionListener(dot);
+		b0.addActionListener(dot);
 		
-		//
+		// Layout declaration
+		
+		
 		GridLayout gl=new GridLayout(1,2);
 		body.setLayout(gl);
 		
@@ -174,11 +222,17 @@ public class AccountManager {
 		depositMoney.setLayout(depositGrid);
 		
 		
+		GridLayout withdraw=new GridLayout(6,2);
+		withdrawMoney.setLayout(withdraw);
+		
+		
+		
 		GridLayout dnrp=new GridLayout(1,1);
 		dnrPanel.setLayout(dnrp);
 		
-	
 		
+	    
+		// frame size
 		
 		f.setSize(1850,850);
 		f.setVisible(true);	

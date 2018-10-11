@@ -9,9 +9,9 @@ import java.sql.*;
 
 public class AccountOperator implements ActionListener{
 	TextField TT1, TT2;
-	TextArea TT3;
+	TextField TT3;
 	
-	public AccountOperator(TextField A, TextField B, TextArea C) {
+	public AccountOperator(TextField A, TextField B, TextField C) {
 		TT1=A;
 		TT2=B;
 		TT3=C;
@@ -27,6 +27,7 @@ public class AccountOperator implements ActionListener{
 		btn=(Button)x.getSource();
 		TiTleBTN=btn.getLabel();
 		
+
 		
 		if(TiTleBTN.equals("Create")) {
 			
@@ -80,13 +81,15 @@ public class AccountOperator implements ActionListener{
 			}
 		}
 		
-		if(TiTleBTN.equals("Clear")) {
-			
-			TT1.setText("");
-		
-			TT2.setText("");
-		}
 	
+	if(TiTleBTN.equals("Clear")) {
+			
+			TT1.setText(" ");
+		
+			TT2.setText(" ");
+			
+			TT3.setText(" ");
+		}
 
 		
 		
